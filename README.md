@@ -49,8 +49,8 @@ solace.connector.solace.desttopicname=<TopicName>
 To check out the project, clone this GitHub repository:
 
 ```
-git clone https://github.com/solacese/github-demo
-cd <github-demo>
+git clone https://github.com/solacese/solace-azservicebus-connector.git
+cd solace-azservicebus-connector
 ```
 
 ## Building and running directly with gradlew
@@ -78,6 +78,7 @@ $ java -jar solace-azservicebus-connector.jar
 ```
 
 > :information_source: In order to provide redundancy, multiple instances can be run at the same. Since the Sol.SolaceToAzure queue is an exclusive queue, only the first instance will actively consume messages from it.
+
 > :warning: Since the application.properties is contained within the generated JAR, changes on the configuration values will require to rerun the  ./gradlew build command
 
 ## Authors
