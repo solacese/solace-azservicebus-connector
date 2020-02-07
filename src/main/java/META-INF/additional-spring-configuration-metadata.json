@@ -1,0 +1,27 @@
+{"properties": [
+  {
+    "name": "solace.connector.servicebus.connectionstring",
+    "type": "java.lang.String",
+    "description": "Azure Service Bus Connection String of a Shared access policy that has Send & Listen permissions"
+  },
+  {
+    "name": "solace.connector.solace.desttopicname",
+    "type": "java.lang.String",
+    "description": "Name of the Solace Topic where the Consumed messages from Azure Service Bus will get published"
+  },
+  {
+    "name": "solace.connector.solace.sourcequeuename",
+    "type": "java.lang.String",
+    "description": "Name of the Solace Queue to consume messages that will get sent to Azure Service Bus"
+  },
+  {
+    "name": "solace.connector.servicebus.destqueuename",
+    "type": "java.lang.String",
+    "description": "Name of the Queue to publish consumed messages from Solace to Azure Service Bus"
+  },
+  {
+    "name": "solace.connector.servicebus.sourcequeuename",
+    "type": "java.lang.String",
+    "description": "Name of the Queue to consume messages from Azure Service Bus"
+  }
+]}
